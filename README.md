@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# steps to Create Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# npx create-react-app {application name}
 
-## Available Scripts
+# To install Tailwind use https://tailwindcss.com/docs/guides/create-react-app
 
-In the project directory, you can run:
+# npm install -D tailwindcss
+# npx tailwindcss init
 
-### `npm start`
+#  "./src/**/*.{js,jsx,ts,tsx}",
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# install below vs code extension
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#  first two import other wise get warning issue.
+PostCSS Language Support
 
-### `npm test`
+Tailwind CSS IntelliSense
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Tailwind CSS Extension Pack
 
-### `npm run build`
+ ES7+ React/Redux/React-Native snippets extension ( install this extension to use short code rafce  to create react functional component)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Till the point what is complete
+-  Create React App
+- Configured TailwindCSS
+- Header
+- Router
+- Login Form
+- sign Up Form
+- Form Validation
+- UseRef Hook
+- Sign up complete
+- Sign in user
+- Deploy on firebase
+- Create Redux store with user slice
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+-  https://netflixgpt1-ebb29.web.app/ ( firebase deploy web app)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Features of Our Application
+ -Login/Sign Up
+    - Sign In/Sign up Forms
+    - redirect to Browse Page
+  Browse ( after authentication)
+    -Header
+    - Main Movie
+      - Trailer in Background
+      - Title & Description
+      - Movies Suggestions
+        - Movie List and vertical scroll
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  -NetFlixGPT
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   -Serch Bar
+   - Movie Suggestions
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# For Routing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm install --save-dev react-router-dom
+or
+npm i -D react-router-dom
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+npx tailwindcss init -p  
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+npm install -D tailwindcss postcss autoprefixer
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+npm audit fix --force
 
-### Advanced Configuration
+npm install firebase
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+create firebase.js
 
-### Deployment
+npm install -g firebase-tools
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+https://console.firebase.google.com/project/netflixgptmd/overview
 
-### `npm run build` fails to minify
+firebase login
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+firebase init
+
+Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
+
+Use an existing project
+
+firebase deploy
+
+npm i -D @reduxjs/toolkit
+
+npm i react-redux
