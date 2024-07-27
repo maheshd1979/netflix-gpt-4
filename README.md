@@ -55,6 +55,29 @@ Tailwind CSS Extension Pack
 
    -Serch Bar
    - Movie Suggestions
+   - Firebase setup
+   - Deploying our app to production
+   - Creating Signup User Account
+   - Implement Sign In User Api
+   - Created Redux store with user slice
+   - Implemented Sign Out
+   - Update Profile
+   - SignUp User Display
+   - Redirect to home screen if user is not login
+   - Unsubcribe onAuthStateChanged callback
+   - Register TMDB API & Create an app and get access token
+   - Get Data from TMDB now playing movie list API
+   - Custom hook for now playing Movies
+   - Create movieSlice
+   - Update Store with movies Data
+   - Planning for MainContainer and SecondaryContainer
+   - Fetch Data for Trailer Video
+   - Update Store with Trailer Video
+   - Embedded the Youtube video and make it autoplay and mute
+   - Tailwind Classes to make Main Container look awesome
+
+
+
 
 
 # For Routing
