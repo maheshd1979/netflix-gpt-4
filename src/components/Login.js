@@ -3,7 +3,6 @@ import Header from './Header';
 import { validateForm } from '../utils/validate';
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword ,updateProfile } from "firebase/auth";
 import { auth } from '../utils/firebase';
-import {useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { addUser } from '../utils/userSlice';
 
@@ -17,7 +16,7 @@ const Login = () => {
   });
   const [errors, setErrors] = useState({});
   const [successMessage, setSuccessMessage] = useState('');
-  const navigate =useNavigate();
+  //const navigate =useNavigate();
   const dispatch=useDispatch();
 
   const toggleSignInform = () => {
@@ -49,7 +48,7 @@ const Login = () => {
           const userCredential = await signInWithEmailAndPassword(auth, email, password);
           console.log('Signed in successfully:', userCredential.user);
           setSuccessMessage('Signed in successfully.');
-          navigate("/browse");
+        //  navigate("/browse");
         } else {
           const userCredential = await createUserWithEmailAndPassword(auth, email, password);
           console.log('Signed up successfully:', userCredential.user);
@@ -58,7 +57,7 @@ const Login = () => {
           dispatch(addUser({ uid, email: userEmail, displayName }));
           console.log('Username set successfully.');
           setSuccessMessage('Signed up successfully.');
-          navigate("/browse");
+         // navigate("/browse");
         }
       } catch (error) {
         handleFirebaseError(error);
