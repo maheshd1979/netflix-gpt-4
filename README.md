@@ -75,6 +75,12 @@ Tailwind CSS Extension Pack
    - Update Store with Trailer Video
    - Embedded the Youtube video and make it autoplay and mute
    - Tailwind Classes to make Main Container look awesome
+   - Popular movie Custom hook
+   - GPT Search Feature
+   - GPT Search Page
+   - GPT Search Bar 
+   - * Multi-language Feature in our app
+
 
 
 
