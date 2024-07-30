@@ -20,6 +20,10 @@ Tailwind CSS Extension Pack
 
  ES7+ React/Redux/React-Native snippets extension ( install this extension to use short code rafce  to create react functional component)
 
+# NetgflixGPTProject (OPEN API key Name)
+# sk-None-dh5chfnsOviREJzYNbJRT3BlbkFJR17nO2pKijJk36m71CFP (secret key)
+
+# npm install  --save openai
 
 # Till the point what is complete
 -  Create React App
