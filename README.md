@@ -84,6 +84,15 @@ Tailwind CSS Extension Pack
    - GPT Search Page
    - GPT Search Bar 
    - * Multi-language Feature in our app
+   - Get Open AI Api Key
+   - Get Search API call
+   - fetched gptMoviesSuggestion from TMDB
+   - created gptSlice added data
+   - Reused Movie List component to make movie suggestion container
+   - Memoization
+   - Added .env file
+   - Adding .env file to gitigonre
+   - I do not do the site responsive
 
 
 
